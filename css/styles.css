@@ -1,0 +1,264 @@
+:root {
+  --subsid-color: #4d5ae5;
+  --logo-font: "Raleway", sans-serif;
+  --dark-bgr: #2e2f42;
+  --ancillary-color: #2e2f42;
+  --backgr-color: #ffffff;
+  --log-stud-col: #f4f4fd;
+  --body-color: #434455;
+  --backgr-btn: #404bbf;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+.logo {
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--subsid-color);
+}
+
+.logo-ligh {
+  color: var(--ancillary-color);
+}
+
+.logo-dark {
+  color: var(--log-stud-col);
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--backgr-color);
+  color: var(--body-color);
+}
+
+.page-header {
+  background-color: #e7e9fc;
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: var(--ancillary-color);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--backgr-btn);
+}
+
+.contacts {
+  font-style: normal;
+  line-height: 1.5;
+}
+
+.contact-mt {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: var(--body-color);
+}
+.contact-mt:hover,
+.contact-mt:focus {
+  color: var(--backgr-btn);
+}
+
+.order-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  color: var(--backgr-color);
+  flex: none;
+
+  background: var(--subsid-color);
+}
+
+.order-btn:hover,
+.order-btn:focus {
+  background-color: var(--backgr-btn);
+}
+
+.designation {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--backgr-color);
+  background-color: var(--dark-bgr);
+}
+
+.designation-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--backgr-color);
+}
+
+.advantage-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--ancillary-color);
+}
+
+.title-adv {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--ancillary-color);
+}
+.defin-adv {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+
+  line-height: 1.5;
+}
+
+.title-adv {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--ancillary-color);
+}
+.defin-adv {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+
+  line-height: 1.5;
+}
+
+.title-adv {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--ancillary-color);
+}
+.defin-adv {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+
+  line-height: 1.5;
+}
+
+.title-adv {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--ancillary-color);
+}
+.defin-adv {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+
+  line-height: 1.5;
+}
+
+.ourwork-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--ancillary-color);
+}
+
+.employ {
+  background-color: var(--backgr-color);
+}
+
+.employ-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--ancillary-color);
+}
+
+.employ-list {
+  background-color: var(--backgr-color);
+}
+
+.employ-item {
+  background-color: var(--backgr-color);
+}
+
+.empl {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--ancillary-color);
+}
+.empl-prof {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+
+.vault {
+  background: var(--dark-bgr);
+}
+
+.vault-txt {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: var(--log-stud-col);
+}
+
+.guide-btn {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--subsid-color);
+  background-color: var(--log-stud-col);
+
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+.guide-btn:hover,
+.guide-btn:focus {
+  color: var(--backgr-color);
+  background-color: var(--backgr-btn);
+}
+
+.specification {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--ancillary-color);
+}
+
+.specification-p {
+  letter-spacing: 0.02em;
+  color: var(--body-color);
+  line-height: 1.5;
+}
